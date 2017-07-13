@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="de2_115_golden_sopc">
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_ic_data_module:DE2_115_QSYS_cpu_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cjd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_ic_tag_module:DE2_115_QSYS_cpu_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_l9h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_mult_cell:the_DE2_115_QSYS_cpu_mult_cell|altmult_add:the_altmult_add_part_2" CBX_FILE_NAME="mult_add_95u2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_register_bank_b_module:DE2_115_QSYS_cpu_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_lvg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_onchip_mem:onchip_mem|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_evc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_nios2_oci:the_DE2_115_QSYS_cpu_nios2_oci|DE2_115_QSYS_cpu_nios2_oci_im:the_DE2_115_QSYS_cpu_nios2_oci_im|DE2_115_QSYS_cpu_traceram_lpm_dram_bdp_component_module:DE2_115_QSYS_cpu_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_0a02.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_nios2_oci:the_DE2_115_QSYS_cpu_nios2_oci|DE2_115_QSYS_cpu_nios2_ocimem:the_DE2_115_QSYS_cpu_nios2_ocimem|DE2_115_QSYS_cpu_ociram_lpm_dram_bdp_component_module:DE2_115_QSYS_cpu_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_e982.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_register_bank_a_module:DE2_115_QSYS_cpu_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_kvg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|lpm_add_sub:Add8" CBX_FILE_NAME="add_sub_qvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_jtag_uart:jtag_uart|DE2_115_QSYS_jtag_uart_scfifo_w:the_DE2_115_QSYS_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|altera_avalon_mm_clock_crossing_bridge:clock_crossing_io|altera_avalon_dc_fifo:cmd_fifo|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_ivc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_cpu:cpu|DE2_115_QSYS_cpu_mult_cell:the_DE2_115_QSYS_cpu_mult_cell|altmult_add:the_altmult_add_part_1" CBX_FILE_NAME="mult_add_75u2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|DE2_115_QSYS_jtag_uart:jtag_uart|DE2_115_QSYS_jtag_uart_scfifo_r:the_DE2_115_QSYS_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_115_golden_sopc|DE2_115_QSYS:DE2_115_qsys_inst|altera_avalon_mm_clock_crossing_bridge:clock_crossing_io|altera_avalon_dc_fifo:rsp_fifo|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_c3d1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

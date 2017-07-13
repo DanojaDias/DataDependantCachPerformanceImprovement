@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun May 07 18:57:40 2017
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : de2_115_golden_sopc
+Top-level Entity Name : de2_115_golden_sopc
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 4,060 / 114,480 ( 4 % )
+    Total combinational functions : 3,643 / 114,480 ( 3 % )
+    Dedicated logic registers : 2,428 / 114,480 ( 2 % )
+Total registers : 2547
+Total pins : 518 / 529 ( 98 % )
+Total virtual pins : 0
+Total memory bits : 3,199,680 / 3,981,312 ( 80 % )
+Embedded Multiplier 9-bit elements : 4 / 532 ( < 1 % )
+Total PLLs : 1 / 4 ( 25 % )

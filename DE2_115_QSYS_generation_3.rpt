@@ -1,0 +1,289 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/Udeni/Desktop/aaa/FYP/ --output-directory=C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS/ --report-file=bsf:C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS.qsys
+Progress: Loading FYP/DE2_115_QSYS.qsys
+Progress: Reading input file
+Progress: Adding clock_crossing_io [altera_avalon_mm_clock_crossing_bridge 12.1]
+Progress: Parameterizing module clock_crossing_io
+Progress: Adding cpu [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu
+Progress: Adding tri_state_bridge_flash_bridge_0 [altera_tristate_conduit_bridge 12.1]
+Progress: Parameterizing module tri_state_bridge_flash_bridge_0
+Progress: Adding tri_state_flash_bridge_pinSharer_0 [altera_tristate_conduit_pin_sharer 12.1]
+Progress: Parameterizing module tri_state_flash_bridge_pinSharer_0
+Progress: Adding cfi_flash [altera_generic_tristate_controller 12.1]
+Progress: Parameterizing module cfi_flash
+Progress: Adding c0 [altera_clock_bridge 12.1]
+Progress: Parameterizing module c0
+Progress: Adding c2 [altera_clock_bridge 12.1]
+Progress: Parameterizing module c2
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding key [altera_avalon_pio 12.1]
+Progress: Parameterizing module key
+Progress: Adding lcd [altera_avalon_lcd_16207 12.1]
+Progress: Parameterizing module lcd
+Progress: Adding sd_clk [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_clk
+Progress: Adding sd_cmd [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_cmd
+Progress: Adding sd_dat [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_dat
+Progress: Adding sd_wp_n [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_wp_n
+Progress: Adding epp_i2c_scl [altera_avalon_pio 12.1]
+Progress: Parameterizing module epp_i2c_scl
+Progress: Adding epp_i2c_sda [altera_avalon_pio 12.1]
+Progress: Parameterizing module epp_i2c_sda
+Progress: Adding seg7 [SEG7_IF 1.0]
+Progress: Parameterizing module seg7
+Progress: Adding sw [altera_avalon_pio 12.1]
+Progress: Parameterizing module sw
+Progress: Adding i2c_scl [altera_avalon_pio 12.1]
+Progress: Parameterizing module i2c_scl
+Progress: Adding i2c_sda [altera_avalon_pio 12.1]
+Progress: Parameterizing module i2c_sda
+Progress: Adding altpll [altpll 12.1]
+Progress: Parameterizing module altpll
+Progress: Adding clk_50 [clock_source 12.1]
+Progress: Parameterizing module clk_50
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding sma_in [altera_avalon_pio 12.1]
+Progress: Parameterizing module sma_in
+Progress: Adding sma_out [altera_avalon_pio 12.1]
+Progress: Parameterizing module sma_out
+Progress: Adding timer [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer
+Progress: Adding ledg [altera_avalon_pio 12.1]
+Progress: Parameterizing module ledg
+Progress: Adding ledr [altera_avalon_pio 12.1]
+Progress: Parameterizing module ledr
+Progress: Adding rs232 [altera_avalon_uart 12.1]
+Progress: Parameterizing module rs232
+Progress: Adding ir [altera_avalon_pio 12.1]
+Progress: Parameterizing module ir
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.1]
+Progress: Parameterizing module sdram
+Progress: Adding sram [TERASIC_SRAM 1.0]
+Progress: Parameterizing module sram
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding audio [AUDIO_IF 1.0]
+Progress: Parameterizing module audio
+Progress: Adding vpg [TERASIC_VPG 1.0]
+Progress: Parameterizing module vpg
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: DE2_115_QSYS.onchip_mem: Memory will be initialized from onchip_mem.hex
+Info: DE2_115_QSYS.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: DE2_115_QSYS.sysid: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/Udeni/Desktop/aaa/FYP/ --output-directory=C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS.sopcinfo --report-file=html:C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS.html --report-file=qip:C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS/synthesis/DE2_115_QSYS.qip --report-file=cmp:C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS.cmp --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS.qsys
+Progress: Loading FYP/DE2_115_QSYS.qsys
+Progress: Reading input file
+Progress: Adding clock_crossing_io [altera_avalon_mm_clock_crossing_bridge 12.1]
+Progress: Parameterizing module clock_crossing_io
+Progress: Adding cpu [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu
+Progress: Adding tri_state_bridge_flash_bridge_0 [altera_tristate_conduit_bridge 12.1]
+Progress: Parameterizing module tri_state_bridge_flash_bridge_0
+Progress: Adding tri_state_flash_bridge_pinSharer_0 [altera_tristate_conduit_pin_sharer 12.1]
+Progress: Parameterizing module tri_state_flash_bridge_pinSharer_0
+Progress: Adding cfi_flash [altera_generic_tristate_controller 12.1]
+Progress: Parameterizing module cfi_flash
+Progress: Adding c0 [altera_clock_bridge 12.1]
+Progress: Parameterizing module c0
+Progress: Adding c2 [altera_clock_bridge 12.1]
+Progress: Parameterizing module c2
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding key [altera_avalon_pio 12.1]
+Progress: Parameterizing module key
+Progress: Adding lcd [altera_avalon_lcd_16207 12.1]
+Progress: Parameterizing module lcd
+Progress: Adding sd_clk [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_clk
+Progress: Adding sd_cmd [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_cmd
+Progress: Adding sd_dat [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_dat
+Progress: Adding sd_wp_n [altera_avalon_pio 12.1]
+Progress: Parameterizing module sd_wp_n
+Progress: Adding epp_i2c_scl [altera_avalon_pio 12.1]
+Progress: Parameterizing module epp_i2c_scl
+Progress: Adding epp_i2c_sda [altera_avalon_pio 12.1]
+Progress: Parameterizing module epp_i2c_sda
+Progress: Adding seg7 [SEG7_IF 1.0]
+Progress: Parameterizing module seg7
+Progress: Adding sw [altera_avalon_pio 12.1]
+Progress: Parameterizing module sw
+Progress: Adding i2c_scl [altera_avalon_pio 12.1]
+Progress: Parameterizing module i2c_scl
+Progress: Adding i2c_sda [altera_avalon_pio 12.1]
+Progress: Parameterizing module i2c_sda
+Progress: Adding altpll [altpll 12.1]
+Progress: Parameterizing module altpll
+Progress: Adding clk_50 [clock_source 12.1]
+Progress: Parameterizing module clk_50
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding sma_in [altera_avalon_pio 12.1]
+Progress: Parameterizing module sma_in
+Progress: Adding sma_out [altera_avalon_pio 12.1]
+Progress: Parameterizing module sma_out
+Progress: Adding timer [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer
+Progress: Adding ledg [altera_avalon_pio 12.1]
+Progress: Parameterizing module ledg
+Progress: Adding ledr [altera_avalon_pio 12.1]
+Progress: Parameterizing module ledr
+Progress: Adding rs232 [altera_avalon_uart 12.1]
+Progress: Parameterizing module rs232
+Progress: Adding ir [altera_avalon_pio 12.1]
+Progress: Parameterizing module ir
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.1]
+Progress: Parameterizing module sdram
+Progress: Adding sram [TERASIC_SRAM 1.0]
+Progress: Parameterizing module sram
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding audio [AUDIO_IF 1.0]
+Progress: Parameterizing module audio
+Progress: Adding vpg [TERASIC_VPG 1.0]
+Progress: Parameterizing module vpg
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: DE2_115_QSYS.onchip_mem: Memory will be initialized from onchip_mem.hex
+Info: DE2_115_QSYS.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: DE2_115_QSYS.sysid: Time stamp will be automatically updated when this component is generated.
+Info: DE2_115_QSYS: Generating DE2_115_QSYS "DE2_115_QSYS" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 9 modules, 40 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 20 modules, 84 connections
+Info: merlin_domain_transform: After transform: 42 modules, 224 connections
+Info: merlin_router_transform: After transform: 53 modules, 268 connections
+Info: merlin_traffic_limiter_transform: After transform: 55 modules, 278 connections
+Info: reset_adaptation_transform: After transform: 58 modules, 223 connections
+Info: merlin_network_to_switch_transform: After transform: 78 modules, 267 connections
+Info: Inserting clock-crossing logic between cmd_xbar_demux_001.src5 and cmd_xbar_mux_005.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux_005.src0 and rsp_xbar_mux_001.sink5
+Info: com_altera_sopcmodel_transforms_avalon_ClockCrossingTransform: After transform: 80 modules, 277 connections
+Info: limiter_update_transform: After transform: 80 modules, 279 connections
+Info: merlin_interrupt_mapper_transform: After transform: 81 modules, 282 connections
+Info: merlin_interrupt_sync_transform: After transform: 82 modules, 287 connections
+Info: clock_crossing_io: "DE2_115_QSYS" instantiated altera_avalon_mm_clock_crossing_bridge "clock_crossing_io"
+Info: cpu: Starting RTL generation for module 'DE2_115_QSYS_cpu'
+Info: cpu:   Generation command is [exec {G:/new folder/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe} -I {G:/new folder/quartus/common/ip/altera/common/perl/5.8.3} -I {G:/new folder/quartus/sopc_builder/bin/europa} -I {G:/new folder/quartus/sopc_builder/bin/perl_lib} -I {G:/new folder/quartus/sopc_builder/bin} -I {G:/new folder/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib} -I {G:/new folder/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib} -I {G:/new folder/quartus/../ip/altera/nios2_ip/altera_nios2} -I {G:/new folder/quartus/../ip/altera/nios2_ip/altera_nios2} -- {G:/new folder/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl} --name=DE2_115_QSYS_cpu --dir=C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0003_cpu_gen/ {--quartus_dir=G:/new folder/quartus} --verilog --config=C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0003_cpu_gen//DE2_115_QSYS_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu: # 2017.05.07 18:21:54 (*) Starting Nios II generation
+Info: cpu: # 2017.05.07 18:21:54 (*)   Checking for plaintext license.
+Info: cpu: # 2017.05.07 18:21:56 (*)   Plaintext license not found.
+Info: cpu: # 2017.05.07 18:21:56 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.05.07 18:21:59 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2017.05.07 18:21:59 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.05.07 18:21:59 (*)   Creating all objects for CPU
+Info: cpu: # 2017.05.07 18:22:00 (*)     Pipeline frontend
+Info: cpu: # 2017.05.07 18:22:02 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.05.07 18:22:05 (*)   Creating encrypted RTL
+Info: cpu: # 2017.05.07 18:22:06 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'DE2_115_QSYS_cpu'
+Info: cpu: "DE2_115_QSYS" instantiated altera_nios2_qsys "cpu"
+Info: Starting classic module elaboration.
+      1 [main] sh 5008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0004_sopclgen  --no_splash --refresh C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0004_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: G:/new folder/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0004_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      0 [main] sh 10516 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0004_sopclgen  --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0004_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.05.07 18:22:17 (*) Success: sopc_builder finished.
+Info: jtag_uart: "DE2_115_QSYS" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: altpll: "DE2_115_QSYS" instantiated altpll "altpll"
+Info: Starting classic module elaboration.
+      2 [main] sh 8980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0007_sopclgen  --no_splash --refresh C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0007_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: G:/new folder/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0007_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      0 [main] sh 11844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0007_sopclgen  --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0007_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.05.07 18:22:32 (*) Success: sopc_builder finished.
+Info: onchip_mem: "DE2_115_QSYS" instantiated altera_avalon_onchip_memory2 "onchip_mem"
+Info: Starting classic module elaboration.
+      0 [main] sh 5396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0008_sopclgen  --no_splash --refresh C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0008_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: G:/new folder/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0008_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      2 [main] sh 7120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0008_sopclgen  --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0008_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2017.05.07 18:22:39 (*) Success: sopc_builder finished.
+Info: timer: "DE2_115_QSYS" instantiated altera_avalon_timer "timer"
+Info: Starting classic module elaboration.
+      0 [main] sh 1920 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0009_sopclgen  --no_splash --refresh C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0009_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: G:/new folder/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0009_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 13448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+"g:/new folder/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "g:/new folder/quartus/sopc_builder/bin/sopc_builder.jar;g:/new folder/quartus/sopc_builder/bin/PinAssigner.jar;g:/new folder/quartus/sopc_builder/bin/sopc_wizard.jar;g:/new folder/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"g:/new folder/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0009_sopclgen  --generate C:/Users/Udeni/AppData/Local/Temp/alt7293_9205182098723989499.dir/0009_sopclgen/yysystem.v --quartus_dir="g:/new folder/quartus" --sopc_perl="g:/new folder/quartus/bin/perl" --sopc_lib_path="++g:/new folder/quartus/../ip/altera/sopc_builder_ip+g:/new folder/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+.
+# 2017.05.07 18:22:47 (*) Running Test Generator Program for DE2_115_QSYS_sdram
+# 2017.05.07 18:22:49 (*) Success: sopc_builder finished.
+Info: sdram: "DE2_115_QSYS" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sysid: "DE2_115_QSYS" instantiated altera_avalon_sysid_qsys "sysid"
+Info: cpu_instruction_master_translator: "DE2_115_QSYS" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info: cpu_jtag_debug_module_translator: "DE2_115_QSYS" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info: cpu_instruction_master_translator_avalon_universal_master_0_agent: "DE2_115_QSYS" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "DE2_115_QSYS" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "DE2_115_QSYS" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "DE2_115_QSYS" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "DE2_115_QSYS" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "DE2_115_QSYS" instantiated altera_merlin_router "id_router"
+Info: id_router_003: "DE2_115_QSYS" instantiated altera_merlin_router "id_router_003"
+Info: addr_router_002: "DE2_115_QSYS" instantiated altera_merlin_router "addr_router_002"
+Info: id_router_006: "DE2_115_QSYS" instantiated altera_merlin_router "id_router_006"
+Info: limiter: "DE2_115_QSYS" instantiated altera_merlin_traffic_limiter "limiter"
+Info: rst_controller: "DE2_115_QSYS" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "DE2_115_QSYS" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "DE2_115_QSYS" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "DE2_115_QSYS" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "DE2_115_QSYS" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "DE2_115_QSYS" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_mux: "DE2_115_QSYS" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "DE2_115_QSYS" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_demux_002: "DE2_115_QSYS" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: rsp_xbar_demux_006: "DE2_115_QSYS" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_006"
+Info: rsp_xbar_mux_002: "DE2_115_QSYS" instantiated altera_merlin_multiplexer "rsp_xbar_mux_002"
+Info: Reusing file C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "DE2_115_QSYS" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file C:/Users/Udeni/Desktop/aaa/FYP/DE2_115_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: irq_mapper: "DE2_115_QSYS" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_synchronizer: "DE2_115_QSYS" instantiated altera_irq_clock_crosser "irq_synchronizer"
+Info: DE2_115_QSYS: Done DE2_115_QSYS" with 35 modules, 118 files, 4051796 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
